@@ -1,0 +1,33 @@
+{
+    "model": "LogisticRegression",
+    "threshold": 0.3,
+    "best_params": {
+        "C": 10.0,
+        "class_weight": null
+    },
+    "cv_roc_auc": 0.8462720772227037,
+    "target_positive_class": 1,
+    "features": [
+        "gender",
+        "SeniorCitizen",
+        "Partner",
+        "Dependents",
+        "tenure",
+        "PhoneService",
+        "MultipleLines",
+        "InternetService",
+        "OnlineSecurity",
+        "OnlineBackup",
+        "DeviceProtection",
+        "TechSupport",
+        "StreamingTV",
+        "StreamingMovies",
+        "Contract",
+        "PaperlessBilling",
+        "PaymentMethod",
+        "MonthlyCharges",
+        "TotalCharges"
+    ],
+    "training_rows": 5625,
+    "random_state": 42
+}
