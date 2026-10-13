@@ -242,15 +242,6 @@ python src/clean_data.py
 ```
 
 This creates the cleaned dataset required by the modeling scripts.
-
-Then run the cleaning script:
-
-```powershell
-python src/clean_data.py
-```
-
-This creates the cleaned dataset required by the modeling scripts.
-
 ### 2. Explore the data
 
 ```powershell
